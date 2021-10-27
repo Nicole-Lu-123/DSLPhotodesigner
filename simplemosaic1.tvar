@@ -1,0 +1,14 @@
+CREATE dog {
+path: dog.jpg
+func effect1 {
+mosaic
+}
+
+var obj1{
+range: {size: 70,30
+position: 100,150}
+effect: effect1
+}
+
+}
+RUN

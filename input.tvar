@@ -1,0 +1,31 @@
+CREATE dog {
+path: dog.jpg
+func effect1 {
+transparency: 50
+saturation: +50
+brightness: +90
+}
+
+func effect2 {
+transparency: 50
+saturation: +50
+brightness: +10
+rotate: counterclockwise, 2
+flip
+}
+
+var obj2{
+range: full
+effect: effect2
+}
+
+var obj1{
+range: {size: 50,50
+position: 100,100}
+effect: effect1
+
+}
+
+
+}
+RUN

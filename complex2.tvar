@@ -1,0 +1,24 @@
+CREATE dog {
+path: dog.jpg
+
+func effect1 {
+brightness: +20
+}
+
+func effect2{
+flip
+}
+
+var obj1{
+range: {size: 75,75
+       position: 200,150}
+effect: effect1
+}
+
+var whole{
+range: full
+effect: effect2
+}
+
+}
+RUN

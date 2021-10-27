@@ -1,0 +1,14 @@
+CREATE jellyfish {
+path: jellyfish.jpg
+func effect1 {
+flip
+}
+
+var obj1{
+range: full
+effect: effect1
+}
+
+
+}
+RUN

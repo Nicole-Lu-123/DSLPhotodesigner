@@ -1,0 +1,15 @@
+CREATE dog {
+path: dog.jpg
+
+func effect1 {
+brightness: -90
+}
+
+var obj1{
+range: full
+effect: effect1
+}
+
+
+}
+RUN

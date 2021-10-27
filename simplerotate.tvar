@@ -1,0 +1,13 @@
+CREATE dog {
+path: dog.jpg
+func effect1 {
+rotate: counterclockwise,3
+}
+
+var obj1{
+range: full
+effect: effect1
+}
+
+}
+RUN
